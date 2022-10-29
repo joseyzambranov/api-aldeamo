@@ -16,14 +16,15 @@ let number =[
     "949911603",
     "942393266",
     "987300897",
-    "917759014"
+    "917759014",
+    "961741567"
 ] 
 
 for(let i of number){
 
     data.addresseeList.push({
         "mobile": i,
-        "url":"https://payzen.io/es-ES/rest/V4.0/api/kb/authentication.html"
+        "url":"https://www.freecodecamp.org/news/the-linux-commands-handbook/"
         })
 }
 
