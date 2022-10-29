@@ -1,6 +1,6 @@
 const axios = require('axios');
 require('dotenv').config()
-const url = "https://apitellit.aldeamo.com/SmsiWS/smsSendPost/"
+const url = process.env.URL
 const header = { headers: { 'Authorization': `Basic ${process.env.TOKEN}` } }
 
 let message = "prueba aldeamo 4"
