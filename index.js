@@ -1,6 +1,6 @@
 const axios = require('axios');
 require('dotenv').config()
-const url = process.env.URL
+const url = `${process.env.URL}`
 const header = { headers: { 'Authorization': `Basic ${process.env.TOKEN}` } }
 
 let message = "prueba aldeamo 4"
